@@ -1,0 +1,72 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+main {
+  background-color: #f2f2f2;
+	color: #1b1b32;
+	font-family: Verdana, Helvetica, sans-serif;
+	margin: 1%;
+}
+
+header {
+  width: 100%;
+	height: inherit;
+  text-align: center;
+  padding: 2%;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 5%;
+  font-size: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+fieldset {
+  border-style: none;
+  margin: 2%;
+}
+
+article {
+  width: 80%;
+  margin: auto;
+}
+
+h2 {
+margin: auto;
+text-align: center;
+padding-top: 4%;
+}
+
+article li {
+  padding: 2%
+}
+
+#quote {
+  text-align: center;
+  margin: 5%;
+}
+
+aside {
+	justify-content: center;
+  margin: 2%;
+}
+
+aside,
+aside a {
+  color: black;
+  text-align: center;
+  font-style: bold;
+}
